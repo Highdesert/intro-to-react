@@ -15,7 +15,7 @@
     		render() {
     			return (
     				<div>
-    				  <h1>Go</h1>
+    				  <h1>Go {this.props.name}</h1>
     				 </div>
     			);
     		}
@@ -23,7 +23,7 @@
 
 
     	ReactDOM.render(
-    		<Button />, document.getElementById('button'));
+    		<Button name ='Go' />, document.getElementById('button'));
     	</script>
 
 </body>
